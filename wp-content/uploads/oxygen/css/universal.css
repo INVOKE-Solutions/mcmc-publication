@@ -1689,3 +1689,35 @@
   overflow: hidden;
   background-color: #fff;
 }
+
+/* Ensure the container has proper spacing */
+.ct-text-block {
+  word-break: break-word; /* Break long links for smaller screens */
+}
+
+/* Style the link */
+.responsive-link {
+  color: #007bff; /* Standard link color */
+  text-decoration: none; /* Remove underline */
+  word-break: break-word; /* Ensure link wraps properly */
+}
+
+.responsive-link:hover {
+  text-decoration: underline; /* Add hover effect */
+  color: #0056b3; /* Darker shade on hover */
+}
+
+/* Smaller screens adjustments */
+@media (max-width: 768px) {
+  .ct-text-block {
+    
+  }
+}
+
+@media (max-width: 768px) {
+  .text-quote {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
