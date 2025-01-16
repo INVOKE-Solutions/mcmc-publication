@@ -689,7 +689,7 @@
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    padding-left: 02px;
+    padding-left: 20px;
   }
   .oxy-header-container {
     padding-right: 20px;
@@ -1728,11 +1728,19 @@
   }
 }
 
-@media (max-width: 767px) {
-  .ct-new-columns > .ct-div-block {
-    padding-top: 20px;
-    padding-right: 0px; 
-    padding-bottom: 20px;
-    padding-left: 0px; 
+@media (max-width: 991px) {
+  #new_columns-22-10> .ct-div-block {
+      width: 100% !important;
+      padding-left: 0px;
+      padding-right: 0px;
   }
 }
+
+@media (max-width: 991px) {
+  #div_block-565-10 {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
